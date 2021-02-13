@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d2a83048-4693-4894-8187-de2ab5b007e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend">
+      <UniqueIdentifier>{36a7e7ec-c6fd-40e4-a878-5d4eafd25d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\NmeaSource">
+      <UniqueIdentifier>{e0c396d0-4aa9-48bf-812d-8cc45b9f95c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\NmeaSource\Header Files">
+      <UniqueIdentifier>{1aa25ef5-1a48-4695-b107-e65aa2ff4805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\NmeaSource\Source Files">
+      <UniqueIdentifier>{87dae724-b412-48ad-8497-f4499c195bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\NmeaSource\Interface Files">
+      <UniqueIdentifier>{0fec003f-b88a-4077-beb5-506056cfbaf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic">
+      <UniqueIdentifier>{4659ae14-4561-4546-a35e-980b55b0d43a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic\NmeaProcessor">
+      <UniqueIdentifier>{5306e3b7-82a3-4e81-a7e1-9a07c33f438e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic\NmeaProcessor\Header Files">
+      <UniqueIdentifier>{313545ce-c5b2-4418-8c4c-15b9fb36db93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic\NmeaProcessor\Source Files">
+      <UniqueIdentifier>{6f9a36ec-45d8-4a19-9bc1-7dac59e23f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{b37bc013-d68e-4d97-a7cb-fb9f9a02c389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Header Files">
+      <UniqueIdentifier>{43234db1-fe99-4c1f-b86b-29f9db9f5e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Source Files">
+      <UniqueIdentifier>{938e0653-cc07-4508-b069-65c0c880bc3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic\NmeaProcessor\Interface Files">
+      <UniqueIdentifier>{0ed8fd61-751a-413e-96e5-8fdc26185002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Interface Files">
+      <UniqueIdentifier>{64fdd86a-1072-4767-b149-2ecc358409a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic\Logger">
+      <UniqueIdentifier>{a0842b94-94b8-4f41-9c8f-9fe1895324f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic\Logger\Header Files">
+      <UniqueIdentifier>{0d18f86d-3a6b-4bb8-bf10-7defd2f3bef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic\Logger\Interface Files">
+      <UniqueIdentifier>{9ceccbbe-2b94-4cf2-9001-d9a7c0de8535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business Logic\Logger\Source Files">
+      <UniqueIdentifier>{e84bdb37-0ce9-47cd-b02b-f1327c05c030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\tyny-rx">
+      <UniqueIdentifier>{043b2b9a-9c73-4a4b-ba90-90babca3309b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\tyny-rx\Header Files">
+      <UniqueIdentifier>{9505faea-8813-400a-8eea-052f38ae6863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\tyny-rx\Interface Files">
+      <UniqueIdentifier>{432a40bf-c3d4-4309-b8ea-15f99a0f983f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\tyny-rx\Source Files">
+      <UniqueIdentifier>{e753b7c0-8ec9-401f-94e1-f2eea691b890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GuiTestApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NmeaSource.cpp">
+      <Filter>Backend\NmeaSource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NmeaProcessor.cpp">
+      <Filter>Business Logic\NmeaProcessor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectsRegistry.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunLoop.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Business Logic\Logger\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPoolExecutor.cpp">
+      <Filter>System\tyny-rx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunLoopExecutor.cpp">
+      <Filter>System\tyny-rx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleThreadExecutor.cpp">
+      <Filter>System\tyny-rx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Guid.cpp">
+      <Filter>System\tyny-rx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subscription.cpp">
+      <Filter>System\tyny-rx\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppLauncher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NmeaSource.h">
+      <Filter>Backend\NmeaSource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INmeaSource.h">
+      <Filter>Backend\NmeaSource\Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NmeaProcessor.h">
+      <Filter>Business Logic\NmeaProcessor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NmeaSourceFactory.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsRegistry.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INmeaProcessor.h">
+      <Filter>Business Logic\NmeaProcessor\Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunLoop.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILoadable.h">
+      <Filter>System\Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerFactory.h">
+      <Filter>Business Logic\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Business Logic\Logger\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILogger.h">
+      <Filter>Business Logic\Logger\Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NmeaProcessorFactory.h">
+      <Filter>Business Logic\NmeaProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.h">
+      <Filter>System\tyny-rx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscriber.h">
+      <Filter>System\tyny-rx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutionPolicy.h">
+      <Filter>System\tyny-rx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guid.h">
+      <Filter>System\tyny-rx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPoolExecutor.h">
+      <Filter>System\tyny-rx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleThreadExecutor.h">
+      <Filter>System\tyny-rx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscription.h">
+      <Filter>System\tyny-rx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IObservable.h">
+      <Filter>System\tyny-rx\Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunLoopExecutor.h">
+      <Filter>System\tyny-rx\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IExecutor.h">
+      <Filter>System\tyny-rx\Interface Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="App.xaml">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.xaml">
+      <Filter>Data</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
