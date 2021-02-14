@@ -44,6 +44,7 @@ void NmeaProcessor::initialize() {
         return;
 
     auto observable = nmea_source_->get_sentences_stream();
+
     raw_data_stream_subscription_ = observable->subscribe([this](std::string sentence) {
         sentences_data_observable_.next(sentence);
         const auto source = sentence.substr(3, 3);
@@ -55,6 +56,19 @@ void NmeaProcessor::initialize() {
             gps_data_observable_.next(std::move(lat), std::move(lon));
         }
     });
+
+    /* filter example
+    raw_data_stream_subscription_ = observable->filter([](auto sentence) {
+        const auto message_type = sentence.substr(3, 3);
+        return message_type == "GGA";
+    }).subscribe([this](auto sentence) {
+        sentences_data_observable_.next(sentence);
+        const auto parts = split(sentence);
+        auto lat = std::make_pair(atof(parts[2].c_str()), parts[3]);
+        auto lon = std::make_pair(atof(parts[4].c_str()), parts[5]);
+        gps_data_observable_.next(std::move(lat), std::move(lon));
+    });
+    */
 }
 
 void NmeaProcessor::uninitialize() {

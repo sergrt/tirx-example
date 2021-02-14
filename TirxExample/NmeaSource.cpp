@@ -19,7 +19,7 @@ NmeaSource::NmeaSource() {
     thread_ = std::thread([this]() {
         while (active_) {
             nmea_sentences_stream_.next(get_next_message());
-            std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+            std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         }
     });
 }
