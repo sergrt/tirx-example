@@ -22,8 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{dcb156c7-449d-462d-9b9b-40c530e8c0a2}</ProjectGuid>
-    <RootNamespace>GuiTestApp</RootNamespace>
+    <RootNamespace>TirxExample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>tirx-example</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -119,6 +120,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,7 +146,7 @@
   <ItemGroup>
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="Guid.cpp" />
-    <ClCompile Include="GuiTestApp.cpp" />
+    <ClCompile Include="TirxExample.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="ObjectsRegistry.cpp" />

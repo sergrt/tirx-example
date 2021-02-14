@@ -70,23 +70,20 @@
     <Filter Include="Business Logic\Logger\Source Files">
       <UniqueIdentifier>{e84bdb37-0ce9-47cd-b02b-f1327c05c030}</UniqueIdentifier>
     </Filter>
-    <Filter Include="System\tyny-rx">
+    <Filter Include="tirx">
       <UniqueIdentifier>{043b2b9a-9c73-4a4b-ba90-90babca3309b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="System\tyny-rx\Header Files">
+    <Filter Include="tirx\Header Files">
       <UniqueIdentifier>{9505faea-8813-400a-8eea-052f38ae6863}</UniqueIdentifier>
     </Filter>
-    <Filter Include="System\tyny-rx\Interface Files">
+    <Filter Include="tirx\Interface Files">
       <UniqueIdentifier>{432a40bf-c3d4-4309-b8ea-15f99a0f983f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="System\tyny-rx\Source Files">
+    <Filter Include="tirx\Source Files">
       <UniqueIdentifier>{e753b7c0-8ec9-401f-94e1-f2eea691b890}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GuiTestApp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="NmeaSource.cpp">
       <Filter>Backend\NmeaSource\Source Files</Filter>
     </ClCompile>
@@ -109,19 +106,22 @@
       <Filter>Business Logic\Logger\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ThreadPoolExecutor.cpp">
-      <Filter>System\tyny-rx\Source Files</Filter>
+      <Filter>tirx\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RunLoopExecutor.cpp">
-      <Filter>System\tyny-rx\Source Files</Filter>
+      <Filter>tirx\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SingleThreadExecutor.cpp">
-      <Filter>System\tyny-rx\Source Files</Filter>
+      <Filter>tirx\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Guid.cpp">
-      <Filter>System\tyny-rx\Source Files</Filter>
+      <Filter>tirx\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Subscription.cpp">
-      <Filter>System\tyny-rx\Source Files</Filter>
+      <Filter>tirx\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TirxExample.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -174,34 +174,34 @@
       <Filter>Business Logic\NmeaProcessor</Filter>
     </ClInclude>
     <ClInclude Include="Observable.h">
-      <Filter>System\tyny-rx\Header Files</Filter>
+      <Filter>tirx\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Subscriber.h">
-      <Filter>System\tyny-rx\Header Files</Filter>
+      <Filter>tirx\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ExecutionPolicy.h">
-      <Filter>System\tyny-rx\Header Files</Filter>
+      <Filter>tirx\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Guid.h">
-      <Filter>System\tyny-rx\Header Files</Filter>
+      <Filter>tirx\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ThreadPoolExecutor.h">
-      <Filter>System\tyny-rx\Header Files</Filter>
+      <Filter>tirx\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SingleThreadExecutor.h">
-      <Filter>System\tyny-rx\Header Files</Filter>
+      <Filter>tirx\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Subscription.h">
-      <Filter>System\tyny-rx\Header Files</Filter>
+      <Filter>tirx\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IObservable.h">
-      <Filter>System\tyny-rx\Interface Files</Filter>
+      <Filter>tirx\Interface Files</Filter>
     </ClInclude>
     <ClInclude Include="RunLoopExecutor.h">
-      <Filter>System\tyny-rx\Header Files</Filter>
+      <Filter>tirx\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IExecutor.h">
-      <Filter>System\tyny-rx\Interface Files</Filter>
+      <Filter>tirx\Interface Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

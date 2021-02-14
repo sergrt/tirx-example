@@ -19,7 +19,6 @@ ThreadPoolExecutor::ThreadPoolExecutor(size_t pool_size) : pool_size_(pool_size)
                 cond_var_.notify_all();
 
                 job();
-                std::this_thread::sleep_for(std::chrono::seconds(5));
             }
         }));
     }

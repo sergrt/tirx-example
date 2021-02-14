@@ -14,7 +14,7 @@
 
 int int_value = 100;
 
-namespace RssReader {
+namespace TirxExample {
 
 
 ResourceDictionary* MainWindow::GetTheme(const char* color, const char* accent) {

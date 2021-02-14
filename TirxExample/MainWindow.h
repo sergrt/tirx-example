@@ -22,7 +22,7 @@ namespace Noesis {
 using namespace Noesis;
 using namespace NoesisApp;
 
-namespace RssReader {
+namespace TirxExample {
     class MainWindow final : public ::Window {
     public:
         MainWindow();
@@ -63,6 +63,6 @@ namespace RssReader {
         tirx::Subscription nmea_subscription_;
         tirx::Subscription gps_subscription_;
 
-        NS_IMPLEMENT_INLINE_REFLECTION_(MainWindow, Window, "RssReader.MainWindow")
+        NS_IMPLEMENT_INLINE_REFLECTION_(MainWindow, Window, "TirxExample.MainWindow")
     };
 }

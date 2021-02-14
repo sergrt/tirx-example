@@ -16,8 +16,8 @@ using namespace NoesisApp;
 class AppLauncher final : public ApplicationLauncher {
 private:
     void RegisterComponents() const override {
-        RegisterComponent<RssReader::App>();
-        RegisterComponent<RssReader::MainWindow>();
+        RegisterComponent<TirxExample::App>();
+        RegisterComponent<TirxExample::MainWindow>();
     }
 
     Ptr<XamlProvider> GetXamlProvider() const override {

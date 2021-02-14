@@ -5,7 +5,7 @@
         Title="IM GUI + Reactive Example" ResizeMode="Resize" SizeToContent="WidthAndHeight"
         Background="{StaticResource Background0}"
         Foreground="{StaticResource Foreground0}"
-        x:Class="RssReader.MainWindow">
+        x:Class="TirxExample.MainWindow">
     <Grid Height="697" Width="942">
         <Image x:Name="BackgroundImage" HorizontalAlignment="Left" Height="615" Margin="0,52,0,0" VerticalAlignment="Top" Width="724" Source="chart.png"/>
         <Grid x:Name="TopBar" Height="53" VerticalAlignment="Top">
