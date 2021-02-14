@@ -5,7 +5,6 @@
 #include "ILogger.h"
 
 #include "AppLauncher.h"
-#include "RunLoop.h"
 
 int NsMain(int argc, char** argv) {
     auto logger = registry.findObject<ILogger>("Logger");
@@ -13,6 +12,6 @@ int NsMain(int argc, char** argv) {
     AppLauncher launcher;
     launcher.SetArguments(argc, argv);
     launcher.SetApplicationFile("App.xaml");
-    auto res = launcher.Run(rlp);
+    auto res = launcher.Run();
     return res;
 }

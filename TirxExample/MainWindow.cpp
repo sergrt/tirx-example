@@ -5,8 +5,6 @@
 #include <NsGui/ListBox.h>
 #include <NoesisPCH.h>
 
-#include "RunLoop.h"
-
 #include "Common.h"
 #include "ILogger.h"
 

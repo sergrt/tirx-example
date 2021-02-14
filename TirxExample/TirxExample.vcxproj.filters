@@ -70,18 +70,6 @@
     <Filter Include="Business Logic\Logger\Source Files">
       <UniqueIdentifier>{e84bdb37-0ce9-47cd-b02b-f1327c05c030}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tirx">
-      <UniqueIdentifier>{043b2b9a-9c73-4a4b-ba90-90babca3309b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="tirx\Header Files">
-      <UniqueIdentifier>{9505faea-8813-400a-8eea-052f38ae6863}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="tirx\Interface Files">
-      <UniqueIdentifier>{432a40bf-c3d4-4309-b8ea-15f99a0f983f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="tirx\Source Files">
-      <UniqueIdentifier>{e753b7c0-8ec9-401f-94e1-f2eea691b890}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NmeaSource.cpp">
@@ -99,26 +87,8 @@
     <ClCompile Include="MainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RunLoop.cpp">
-      <Filter>System\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Logger.cpp">
       <Filter>Business Logic\Logger\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreadPoolExecutor.cpp">
-      <Filter>tirx\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RunLoopExecutor.cpp">
-      <Filter>tirx\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SingleThreadExecutor.cpp">
-      <Filter>tirx\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Guid.cpp">
-      <Filter>tirx\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Subscription.cpp">
-      <Filter>tirx\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TirxExample.cpp">
       <Filter>Source Files</Filter>
@@ -155,9 +125,6 @@
     <ClInclude Include="INmeaProcessor.h">
       <Filter>Business Logic\NmeaProcessor\Interface Files</Filter>
     </ClInclude>
-    <ClInclude Include="RunLoop.h">
-      <Filter>System\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ILoadable.h">
       <Filter>System\Interface Files</Filter>
     </ClInclude>
@@ -172,36 +139,6 @@
     </ClInclude>
     <ClInclude Include="NmeaProcessorFactory.h">
       <Filter>Business Logic\NmeaProcessor</Filter>
-    </ClInclude>
-    <ClInclude Include="Observable.h">
-      <Filter>tirx\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Subscriber.h">
-      <Filter>tirx\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ExecutionPolicy.h">
-      <Filter>tirx\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Guid.h">
-      <Filter>tirx\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ThreadPoolExecutor.h">
-      <Filter>tirx\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SingleThreadExecutor.h">
-      <Filter>tirx\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Subscription.h">
-      <Filter>tirx\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IObservable.h">
-      <Filter>tirx\Interface Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RunLoopExecutor.h">
-      <Filter>tirx\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IExecutor.h">
-      <Filter>tirx\Interface Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

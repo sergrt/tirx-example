@@ -41,11 +41,14 @@ public:
 private:
     std::array<unsigned char, 16> data_;
 };
-
 */
+
 std::string get_uuid() {
+#ifdef _DEBUG
     static int i = 1;
     return std::to_string(i++);
+#endif
+
     static std::random_device dev;
     static std::mt19937 rng(dev());
 

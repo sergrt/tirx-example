@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Interface Files">
+      <UniqueIdentifier>{fb00a2d5-fdd9-4d86-9e07-1ae0921d3511}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExecutionPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunLoopExecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleThreadExecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscriber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPoolExecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IObservable.h">
+      <Filter>Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IExecutor.h">
+      <Filter>Interface Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Guid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subscription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleThreadExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunLoopExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPoolExecutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
