@@ -18,7 +18,7 @@ template<typename ...T>
 class Observable : public IObservable, public std::enable_shared_from_this<IObservable> {
 public:
     Observable() {
-        std::cout << "Constructing observer " << uuid_ << "\n";
+        std::cout << "Constructing observable " << uuid_ << "\n";
         set_default_params();
     }
 
@@ -30,8 +30,9 @@ public:
         executor_.reset();
         execution_policy_ = ExecutionPolicy::NoExecutor;
     }
+
     ~Observable() override {
-        std::cout << "Destructing observer " << uuid_ << "\n";
+        std::cout << "Destructing observable " << uuid_ << "\n";
         for (auto& s : subscriptions_) {
             s.reset();
         }
@@ -95,7 +96,7 @@ public:
         return subscribers_.size();
     }
 
-    void detach() const {
+    void detach() {
         if (linked_subscription_)
             linked_subscription_.value().unsubscribe();
     }
@@ -194,12 +195,9 @@ private:
     std::list<Subscription> subscriptions_;
     const std::string uuid_ = utils::get_uuid(); // For debug
 
-
+    // linked - means this is a proxy observable made to make
+    // map, filter or other function
     std::optional<Subscription> linked_subscription_;
-    // Chained - subscriber with this UUID is subscribed to parent (chained) observable,
-    // and produces output to this
-    //IObservable* linked_observable_{ nullptr };
-    //std::string linked_subscriber_uuid_;
 };
 
 }
