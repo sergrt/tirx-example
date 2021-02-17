@@ -92,13 +92,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)tirx;C:\workspace\VLD\src;C:\workspace\NoesisGui\Src\Packages\App\Providers\Include;C:\workspace\NoesisGui\Src\Packages\App\DisplayLauncher\Include;C:\workspace\NoesisGui\Src\Packages\App\Display\Include;C:\workspace\NoesisGui\Src\Packages\App\Launcher\Include;C:\workspace\NoesisGui\Src\Packages\App\ApplicationLauncher\Include;C:\workspace\NoesisGui\Include;$(ProjectDir)$(Configuration);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\tirx\src;$(SolutionDir)..\VLD\src;$(SolutionDir)..\NoesisGui\Src\Packages\App\Providers\Include;$(SolutionDir)..\NoesisGui\Src\Packages\App\DisplayLauncher\Include;$(SolutionDir)..\NoesisGui\Src\Packages\App\Display\Include;$(SolutionDir)..\NoesisGui\Src\Packages\App\Launcher\Include;$(SolutionDir)..\NoesisGui\Src\Packages\App\ApplicationLauncher\Include;$(SolutionDir)..\NoesisGui\Include;$(ProjectDir)$(Configuration);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>c:\workspace\NoesisGui\Lib\windows_x86\Noesis.lib;c:\workspace\NoesisGui\Lib\windows_x86\NoesisApp.lib;c:\workspace\VLD\src\bin\Win32\Debug-v142\vld.lib;$(SolutionDir)$(Configuration)\tirx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)..\NoesisGui\Lib\windows_x86\Noesis.lib;$(SolutionDir)..\NoesisGui\Lib\windows_x86\NoesisApp.lib;$(SolutionDir)..\VLD\src\bin\Win32\Debug-v142\vld.lib;$(SolutionDir)..\tirx\build\$(Configuration)\tirx.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
     </Link>
