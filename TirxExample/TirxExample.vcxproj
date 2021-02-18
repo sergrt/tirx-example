@@ -98,7 +98,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(SolutionDir)..\NoesisGui\Lib\windows_x86\Noesis.lib;$(SolutionDir)..\NoesisGui\Lib\windows_x86\NoesisApp.lib;$(SolutionDir)..\VLD\src\bin\Win32\Debug-v142\vld.lib;$(SolutionDir)..\tirx\build\$(Configuration)\tirx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)..\NoesisGui\Lib\windows_x86\Noesis.lib;$(SolutionDir)..\NoesisGui\Lib\windows_x86\NoesisApp.lib;$(SolutionDir)..\VLD\src\bin\Win32\Debug-v142\vld.lib;$(SolutionDir)..\tirx\build\src\$(Configuration)\tirx.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
     </Link>
