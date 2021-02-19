@@ -7,7 +7,7 @@
 #include <chrono>
 #include <iomanip>
 #include <sstream>
-#include <time.h>
+#include <ctime>
 #include <algorithm>
 
 namespace {
@@ -68,25 +68,7 @@ void Logger::log_unsafe(const std::string& record) {
     }
 }
 
-/*
-struct my_struct {
-    void on_next(int i) {
-        std::cout << "[" << std::this_thread::get_id() << "] " << "s::next, value = " << i << "\n";
-        x += i;
-    }
-    void on_end() {
-        std::cout << "[" << std::this_thread::get_id() << "] " << "s::end, x = " << x << "\n";
-    }
-    void on_error(std::string s) {
-        std::cout << "[" << std::this_thread::get_id() << "] " << "s::error, " << s << "\n";
-    }
-
-    int x = 0;
-};
-*/
-
 tirx::Subscription Logger::add_data_source(log_data_istream* stream) {
-
     auto func = [this](std::string log_str) {
         log_unsafe(format_log_record(log_str));
     };
@@ -104,14 +86,3 @@ tirx::Subscription Logger::add_data_source(log_data_istream* stream) {
     active_subscriptions_.push_back(subscription);
     return active_subscriptions_.back();
 }
-/*
-void Logger::remove_data_source(log_data_istream* stream) {
-
-    std::find
-
-
-    auto i = active_subscriptions_.erase(active_subscriptions_.find(observable));
-    stream->unsubscribe(active_subscriptions_[observable]);
-    //observable_subscriptions_.erase(observable_subscriptions_.find(observable));
-}
-*/

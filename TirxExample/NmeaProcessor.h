@@ -12,6 +12,7 @@ class NmeaProcessor : public INmeaProcessor, public ILoadable {
 public:
     NmeaProcessor();
     ~NmeaProcessor() override;
+
     void initialize() override;
     void uninitialize() override;
 

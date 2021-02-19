@@ -2,6 +2,6 @@
 
 #include "NmeaProcessor.h"
 
-inline NmeaProcessor* CreateNmeaProcessor1() {
+inline NmeaProcessor* CreateNmeaProcessor() {
     return new NmeaProcessor();
 }

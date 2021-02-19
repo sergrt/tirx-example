@@ -17,8 +17,8 @@ public:
     std::shared_ptr<T> findObject(const std::string& name) {
         const auto i = registry_.find(name);
         if (i == registry_.end())
-            //throw std::logic_error("No object found");
-            return nullptr;
+            throw std::logic_error("No object found");
+            //return nullptr;
 
         return std::dynamic_pointer_cast<T>(i->second);
     }

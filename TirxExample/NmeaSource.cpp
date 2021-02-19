@@ -2,6 +2,7 @@
 
 NmeaSource::NmeaSource() {
     std::cout << "NmeaSource()\n";
+
     current_sentence_index_ = 0;
     nmea_sentences_ = {
         "$GPGGA,194546.127,5231.525,N,01323.391,E,1,12,1.0,0.0,M,0.0,M,,*6E",
@@ -48,4 +49,3 @@ void NmeaSource::initialize() {
 void NmeaSource::uninitialize() {
     std::cout << "NmeaSource uninitialize()" << "\n";
 }
-

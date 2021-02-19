@@ -5,7 +5,6 @@
 
 #include "SingleThreadExecutor.h"
 
-
 #include <fstream>
 
 class Logger : public ILogger, public ILoadable {
@@ -18,7 +17,6 @@ public:
     void log_unsafe(const std::string& record) override;
 
     tirx::Subscription add_data_source(log_data_istream* stream) override;
-    //void remove_data_source(log_data_istream* stream) override;
 
 private:
     std::ofstream file_;

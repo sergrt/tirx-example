@@ -29,15 +29,4 @@ private:
 
         return *new EmbeddedXamlProvider(xamls);
     }
-    /*
-    Ptr<FontProvider> GetFontProvider() const override {
-        EmbeddedFont fonts[] =
-        {
-            { "", Roboto_Regular_ttf },
-            { "", Roboto_Bold_ttf }
-        };
-
-        return *new EmbeddedFontProvider(fonts);
-    }
-    */
 };

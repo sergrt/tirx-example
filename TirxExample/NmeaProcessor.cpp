@@ -26,7 +26,6 @@ INmeaProcessor::sentences_observable* NmeaProcessor::get_sentences_stream() {
     return &sentences_data_observable_;
 }
 
-
 NmeaProcessor::NmeaProcessor() {
     std::cout << "NmeaProcessor()\n";
 }
