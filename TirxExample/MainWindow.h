@@ -8,10 +8,9 @@
 #include <NsGui/IntegrationAPI.h>
 #include <NsGui/ComboBox.h>
 
-#include <thread>
-#include <chrono>
+#include "tirx.h"
 
-#include "Observable.h"
+#include <thread>
 
 namespace Noesis {
     class Image;

@@ -3,7 +3,7 @@
 #include "ILoadable.h"
 #include "ILogger.h"
 
-#include "SingleThreadExecutor.h"
+#include "tirx.h"
 
 #include <fstream>
 

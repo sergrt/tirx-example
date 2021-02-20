@@ -4,7 +4,7 @@
 #include "ILoadable.h"
 #include "INmeaProcessor.h"
 
-#include "Observable.h"
+#include "tirx.h"
 
 #include <memory>
 

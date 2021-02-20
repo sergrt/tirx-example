@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Observable.h"
+#include "tirx.h"
 
 class INmeaProcessor {
 public:

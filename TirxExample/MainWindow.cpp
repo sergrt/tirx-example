@@ -9,7 +9,6 @@
 
 #include <sstream>
 
-
 namespace {
     const Color light_bg_color(200, 220, 200);
     const Color dark_bg_color(100, 120, 100);
