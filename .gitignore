@@ -34,5 +34,6 @@
 
 # Visual studio
 Debug/
+Release/
 .vs/
 *.vcxproj.user
